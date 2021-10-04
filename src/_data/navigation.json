@@ -7,13 +7,18 @@
     },
     {
       "text": "GitHub",
-      "url": "https://github.com/hankchizljaw/hylia",
+      "url": "https://github.com/KennethLamar",
       "external": true
     },
     {
-      "text": "Example Contact Page",
-      "url": "/contact",
-      "external": false
-    }
+      "text": "Publications",
+      "url": "https://scholar.google.com/citations?user=dtbm8acAAAAJ",
+      "external": true
+    },
+    // {
+    //   "text": "Contact",
+    //   "url": "/contact",
+    //   "external": false
+    // }
   ]
 }
