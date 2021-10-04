@@ -2,58 +2,9 @@
 
 Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
 
-Get started now by **[deploying Hylia to Netlify.][deploy-to-netlify]**
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
-
-<img src="https://hankchizljaw.imgix.net/hylia-github.jpg?auto=format&q=60" width="550" />
-
-## Features
-
-Hylia version 0.7.0 features:
-
-✍️ A pre-configured [Netlify CMS](https://www.netlifycms.org/) setup  
-🎨 Customisable design tokens to make it your own  
-🌍 Customisable global data and navigation  
-📂 Tags and tag archives  
-✅ Progressively enhanced, semantic and accessible  
-🎈 _Super_ lightweight front-end  
-🚰 Sass powered CSS system with utility class generator  
-⚙️ Service worker that caches pages so people can read your articles offline  
-🚀 An RSS feed for your posts  
-💌 A basic contact form, ready for [Netlify Forms](https://docs.netlify.com/forms/setup/#html-forms)
-
-## Roadmap
-
-💬 [Netlify Forms](https://www.netlify.com/docs/form-handling/) powered comments  
-💡 ~~Dark/Light mode toggle~~ [Added in 0.4.0](https://github.com/hankchizljaw/hylia/releases/tag/0.4.0)  
-🗣 Webmentions  
-📖 Pagination  
-🐦 Web sharing API integration  
-🗒 Offline mode with links to cached pages  
-📄 Documentation site  
-💅 Proper Sass documentation  
-✍️ Proper CMS documentation  
-🖼 A facility for you to be able to add your logo / branding  
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d1bc39d3-3494-4250-a640-6dc7e626d646/deploy-status)](https://app.netlify.com/sites/kennethl/deploys)
 
 ---
-
-## Getting started
-
-### Method one: One-Click Deploy to Netlify
-
-You can [deploy Hylia to Netlify with one click][deploy-to-netlify] and you’ll be up and running in minutes!
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
-
-I recorded a quick start video of me deploying Hylia to Netlify and getting the CMS set up. [Check it out here](https://youtu.be/0hM_0BH-Y_A).
-
-### Method two: Clone / Fork
-
-1. Clone or fork this repo: `git clone https://github.com/hankchizljaw/hylia`
-2. `cd` into the project directory and run `npm install`
-3. Once all the dependencies are installed run `npm start`
-4. Open your browser at `http://localhost:8080` and away you go!
 
 ## Terminal commands
 
@@ -81,21 +32,6 @@ npm run sass:process
 npm run sass:tokens
 ```
 
-## Getting started with the CMS
-
-Before you can use the CMS, you need to do some config in Netlify. Luckily they provide a [very handy guide to get started](https://www.netlify.com/docs/identity/).
-
-In short, though:
-
-- Once you’ve set up the site on Netlify, go to “Settings” > “Identity” and enable Identity
-- Scroll down to the “Git Gateway” area, click “Enable Git Gateway” and follow the steps
-- Click the “Identity” tab at the top
-- Once you’ve enabled identity, click “Invite Users”
-- Check the invite link in your inbox and click the link in the email that’s sent to you
-- Set a password in the popup box
-- Go to `/admin` on your site and login
-- You’re in and ready to edit your content!
-
 ## Design Tokens and Styleguide
 
 ### Design Tokens
@@ -116,7 +52,7 @@ The tokens are converted into maps that the Sass uses to compile the front-end C
 
 ### Styleguide
 
-Your version of Hylia ships with a Styleguide by default. You can see a demo of the Styleguide at <https://hylia.website/styleguide/>.
+Your version of Hylia ships with a Styleguide by default. You can see a demo of the Styleguide at <https://hylia.kennethl.dev/styleguide/>.
 
 You can edit the Styleguide by opening [`src/styleguide.njk`](https://github.com/hankchizljaw/hylia/blob/master/src/styleguide.njk). If you don’t want the Styleguide, delete that file and the page will vanish.
 
@@ -194,15 +130,3 @@ The basic CMS setup allows you to edit the following:
 - **Global site data**: Various bits of global site data such as your url, title, posts per page and author details
 - **Navigation**: Edit your primary navigation items
 - **Theme**: Edit the design tokens that power the site’s theme
-
-## Get involved
-
-This project is _super_ early and feedback is very much welcome. In order to keep things running smooth, please consult the [contribution guide and code of conduct](https://github.com/hankchizljaw/hylia/blob/master/contributing.md).
-
-The stuff that I need the most help with is:
-
-- Documentation
-- [Webmentions](https://www.w3.org/TR/webmention/)
-- Performance
-
-[deploy-to-netlify]: https://app.netlify.com/start/deploy?repository=https://github.com/hankchizljaw/hylia&stack=cms
