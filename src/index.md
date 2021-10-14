@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: 'layouts/page.njk'
 title: Welcome!
 postsHeading: Latest posts
 archiveButtonText: See all posts
@@ -7,4 +7,4 @@ metaDesc: 'Hylia is a lightweight Eleventy starter kit to help you to create you
 socialImage: ''
 ---
 
-There's not much here yet, but this website will provide coverage of my projects, both personal and professional.
+There's not much here yet.

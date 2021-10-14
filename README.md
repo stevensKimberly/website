@@ -2,8 +2,6 @@
 
 Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d1bc39d3-3494-4250-a640-6dc7e626d646/deploy-status)](https://app.netlify.com/sites/kennethl/deploys)
-
 ---
 
 ## Terminal commands
@@ -52,7 +50,7 @@ The tokens are converted into maps that the Sass uses to compile the front-end C
 
 ### Styleguide
 
-Your version of Hylia ships with a Styleguide by default. You can see a demo of the Styleguide at <https://hylia.kennethl.dev/styleguide/>.
+Your version of Hylia ships with a Styleguide by default. You can see a demo of the Styleguide at <https://ksteve-sudoku.netlify.app/styleguide/>.
 
 You can edit the Styleguide by opening [`src/styleguide.njk`](https://github.com/hankchizljaw/hylia/blob/master/src/styleguide.njk). If you don’t want the Styleguide, delete that file and the page will vanish.
 

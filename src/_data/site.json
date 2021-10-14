@@ -1,10 +1,8 @@
 {
   "showThemeCredit": true,
-  "name": "Kenneth Lamar's Website",
-  "shortDesc": "Coverage of my projects, both personal and professional.",
-  "url": "https://kennethl.dev",
-  "authorHandle": "@KennethMLamar",
-  "authorName": "Kenneth Lamar",
+  "name": "Sudoku Solver",
+  "shortDesc": " ",
+  "url": "https://ksteve-sudoku.netlify.app/",
   "enableThirdPartyComments": false,
   "maxPostsPerPage": 5,
   "faviconPath": "/images/favicon.png"

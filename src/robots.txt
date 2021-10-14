@@ -1,4 +1,4 @@
-Sitemap: https://kennethl.dev/sitemap.xml
+Sitemap: https://ksteve-sudoku.netlify.app/sitemap.xml
 
 User-agent: *
 Disallow:
